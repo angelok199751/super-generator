@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+# Генератор данных
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это веб-приложение для генерации различных данных:  
+- логинов  
+- паролей  
+- ФИО  
+- произвольного текста  
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Приложение собрано на **Vue 3** и использует современный адаптивный интерфейс.  
+
+В проект встроен милый **котик-маскот**, который добавляет интерактивности: моргает, мурлычет и иногда появляется с забавными репликами, но не влияет на основную функциональность генератора.  
+
+## Как пользоваться
+
+1. Выбирайте нужный тип данных и необходимые параметры через интерфейс.  
+2. Нажимайте кнопку "Сгенерировать".  
+3. Полученные данные можно скопировать или использовать по необходимости.  
+
+Приложение полностью клиентское и работает в браузере.
