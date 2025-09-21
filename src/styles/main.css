@@ -1,0 +1,65 @@
+.module-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  border: 4px solid var(--border-color);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-body);
+  color: var(--text-color);
+}
+
+.module-title {
+  font-family: var(--font-header);
+  font-size: var(--header-size);
+  font-weight: 600;
+  line-height: var(--header-line-height);
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.module-subtitle {
+  font-family: var(--font-subheader);
+  font-size: var(--subheader-size);
+  font-weight: 600;
+  line-height: var(--subheader-line-height);
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0 0 12px 0;
+}
+
+.module-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* для адаптивности */
+}
+
+.module-left, .module-right {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.group-header {
+  font-family: var(--font-accordion);
+  font-size: var(--accordion-size);
+  font-weight: 600;
+  line-height: var(--accordion-line-height);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.group-content, .checkbox-label, .slider-wrapper, .buttons-wrapper {
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  font-weight: 400;
+  line-height: var(--body-line-height);
+  color: var(--text-color);
+}
