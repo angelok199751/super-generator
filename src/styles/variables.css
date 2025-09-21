@@ -1,0 +1,24 @@
+:root {
+  /* Цвета */
+  --text-color: rgba(68, 65, 61, 1);
+  --border-color: rgba(250, 218, 221, 1);
+
+  /* Шрифты */
+  --font-header: 'Poppins', sans-serif;
+  --font-subheader: 'Nunito', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  --font-accordion: 'Poppins', sans-serif;
+
+  /* Размеры и высота строки */
+  --header-size: 24px;
+  --header-line-height: 36px;
+
+  --subheader-size: 18px;
+  --subheader-line-height: 25px;
+
+  --body-size: 16px;
+  --body-line-height: 22px;
+
+  --accordion-size: 18px;
+  --accordion-line-height: 27px;
+}
